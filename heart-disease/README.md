@@ -4,6 +4,10 @@ In this example we use the Heart Disease data from <https://www.kaggle.com/ronit
 
 We train a pipeline composed of a DictVectorizer, RobustScaler and a RandomForest classifier and deploy it on Blazee.
 
+While this model is used in production, we found a SGDClassifier that performed better and deployed it to Blazee as well.
+
+This example demonstrates how you can simply manage the lifecycle of your models in production and A/B test them with Blazee.
+
 ## Deployment
 
 Model is trained and deployed in the Jupyter Notebook
