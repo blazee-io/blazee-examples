@@ -7,9 +7,17 @@ verify_ssl = true
 
 [packages]
 jupyter = "*"
-blazee = "*"
 scikit-learn = "*"
 pandas = "*"
+keras = "*"
+tensorflow = "*"
+blazee = {editable = true,path = "./../blazee-python"}
+pillow = "*"
+requests = "*"
+matplotlib = "*"
+seaborn = "*"
+torch = "*"
+torchvision = "*"
 
 [requires]
 python_version = "3.7"
